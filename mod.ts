@@ -1,7 +1,7 @@
 
 export {
 Fluent
-} from './fluent.ts';
+} from './src/fluent.ts';
 export type {
 FluentOptions,
     AddTranslationOptions,
@@ -9,7 +9,7 @@ FluentOptions,
     GetTranslatorOptions,
     LocaleId,
     TranslationContext
-} from './fluent.ts';
+} from './src/fluent.ts';
   
   export type {
     WarningHandler,
@@ -20,9 +20,9 @@ FluentOptions,
     TranslateMessageMissingAttributeWarning,
     TranslateMissingTranslationWarning,
   
-  } from './warnings/warnings.ts';
+  } from './src/warnings/warnings.ts';
   
 export {
 LoggingWarningHandler
-} from './warnings/logging-warning-handler.ts';
-export type { LoggingWarningHandlerOptions } from './warnings/logging-warning-handler.ts';
+} from './src/warnings/logging-warning-handler.ts';
+export type { LoggingWarningHandlerOptions } from './src/warnings/logging-warning-handler.ts';
